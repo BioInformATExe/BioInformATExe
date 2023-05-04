@@ -6,7 +6,7 @@ We are a group of Bioinformaticians at the University of Exeter who want to crea
 
 ## Launching 13 June 2023! 
 
-Click [here](https://forms.office.com/pages/responsepage.aspx?id=d10qkZj77k6vMhM02PBKUwy9pUqEb4NGkCf4YivH1lZUQUlRREFZUEw2SEkyS1JXU1JCTTdQQlY3Sy4u) to sign up for a free lunch at our launch event!
+Click [here](https://forms.office.com/pages/responsepage.aspx?id=d10qkZj77k6vMhM02PBKUwy9pUqEb4NGkCf4YivH1lZUQUlRREFZUEw2SEkyS1JXU1JCTTdQQlY3Sy4u) to sign up for a seat at our launch event (lunch provided with limited availability - don't wait!).
 
 <!---
 BioInformATExe/BioInformATExe is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
