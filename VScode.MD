@@ -31,13 +31,13 @@ Besides this, the `...` button lets you do things like clear the terminal, and t
 ## File Explorer
 The file explorer is a document symbol on the left bar of the window. When you click on it, it will give you the options to open a folder or clone a repository. If you open a folder, you can open a local one (choose the parent directory of your files, as you won't be able to navigate beyond it with the file explorer - though you can with the terminal). You can also open a remote computer's directories, if you have the Remote Explorer extension (more on this below). 
 
-*Left clicking on a directory* opens or closes it in the display. 
+**Left clicking on a directory** opens or closes it in the display. 
 
-A *single left click* on a file opens it in the current tab. A *double left click* will open it in a new tab in the same window, keeping the old one open. 
+A **single left click** on a file opens it in the current tab. A *double left click* will open it in a new tab in the same window, keeping the old one open. 
 
-*Right clicking a directory* will let you make more files or directories, or copy its path (or relative path).
+**Right clicking a directory** will let you make more files or directories, or copy its path (or relative path).
 
-*Right clicking a file* gives you options relating to that file. You can select a file for comparison and then right click on another file and compare the two visually side-by-side, highlighting differences. You can open a file in a new tab, or split the viewing panel and open it to the side to view it alongside another without highlighting differences. You can also rename it, delete it, download it, copy it, copy its path, or view its timeline - a sparse history of edits to that file. Selecting "Preview" on a markdown file will allow you to view it as a rich text version, rather than in the editor version. 
+**Right clicking a file** gives you options relating to that file. You can select a file for comparison and then right click on another file and compare the two visually side-by-side, highlighting differences. You can open a file in a new tab, or split the viewing panel and open it to the side to view it alongside another without highlighting differences. You can also rename it, delete it, download it, copy it, copy its path, or view its timeline - a sparse history of edits to that file. Selecting "Preview" on a markdown file will allow you to view it as a rich text version, rather than in the editor version. 
 
 
 ## Settings
@@ -49,7 +49,7 @@ VS Code is similar to a web browser in that it lets you install extensions. Thes
 Installing extensions can be done by clicking on the left hand button showing three squares in a window shape with a fourth offset to the side. In the side panel you can see popular extensions and search for those you need. Click on one you want to install, and an information page will open with an install button. Some will require a restart to take effect. 
 
 ## Remote computing
-Two of the most useful extensions are *Remote-SSH* and *Remote Explorer*.
+Two of the most useful extensions are **Remote-SSH** and **Remote Explorer**.
 Remote-SSH allows you to connect to a remote computer using SSH, and use VS code as normal, using the integrated viewers and text editors. 
 Remote-Explorer allows you to open directories in a remote computer and browse through them in a side panel using a mouse. It can make navigating files very fast and is well worth using.
 
