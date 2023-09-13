@@ -2,6 +2,8 @@
 VS Code is a code editor which acts as a terminal, script editor and file viewer all in one. It allows you to do multiple things at once, instead of closing the terminal to open a script and closing the script to return to the terminal, as other editors often do.
 You can use it on your personal computer, or on remote HPCs.
 
+![Alt: Several overlaid VS Code windows showcasing different colour variants of a theme.](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/2c5dbb73-94e1-486f-9daa-351699faaa2d/peacock-extension.png)
+
 ## On VS Code, you can:
 - View a script and the terminal at the same time.
 - "Split" the terminal into two or more so you can be and code in multiple directories at once. 
