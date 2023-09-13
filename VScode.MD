@@ -84,7 +84,7 @@ You're now set up to connect to the remote machine.
 7. The option `Remote-SSH: Connect to host" will let you select the host you just added. It will then prompt you to enter your password (and possibly to tell it whether the host is a linux, mac or windows machine). 
 8. An installation step runs and it attempts to connect. When this finishes, you'll be able to open a terminal and work on the remote machine!
 
-### A limitation with ISCA when using the VPN off campus
+####  Prolems with ISCA when using the VPN off campus
 Unfortunately, firewalls and security make it hard to connect to Isca using Remote-ssh when using the VPN. 
 If you find yourself stuck on the "Install" phase of connecting, there is a fix for this.
 
