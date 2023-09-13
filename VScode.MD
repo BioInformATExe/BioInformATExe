@@ -1,5 +1,5 @@
 # What is VS Code?
-VS Code is a code editor which acts as a terminal, script editor and file viewer all in one. 
+VS Code is a code editor which acts as a terminal, script editor and file viewer all in one. It allows you to do multiple things at once, instead of closing the terminal to open a script and closing the script to return to the terminal, as other editors often do.
 You can use it on your personal computer, or on remote HPCs.
 
 ## On VS Code, you can:
