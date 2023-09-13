@@ -33,9 +33,9 @@ The file explorer is a document symbol on the left bar of the window. When you c
 
 **Left clicking on a directory** opens or closes it in the display. 
 
-A **single left click** on a file opens it in the current tab. A *double left click* will open it in a new tab in the same window, keeping the old one open. 
-
 **Right clicking a directory** will let you make more files or directories, or copy its path (or relative path).
+
+A **single left click on a file** opens it in the current tab. A *double left click* will open it in a new tab in the same window, keeping the old one open. 
 
 **Right clicking a file** gives you options relating to that file. You can select a file for comparison and then right click on another file and compare the two visually side-by-side, highlighting differences. You can open a file in a new tab, or split the viewing panel and open it to the side to view it alongside another without highlighting differences. You can also rename it, delete it, download it, copy it, copy its path, or view its timeline - a sparse history of edits to that file. Selecting "Preview" on a markdown file will allow you to view it as a rich text version, rather than in the editor version. 
 
