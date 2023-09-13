@@ -20,11 +20,16 @@ Note that macOS users will need to manually install the code command manually, w
 The `code` command can be used to create, view and edit files, and to open file formats like PDFs, web links and images. 
 
 ## The Terminal
-You can open a terminal by pressing `CTRL+SHIFT+@` (`COMMAND+SHIFT+@` on macOS). The default position is at the bottom of the screen. You can adjust its height by clicking and dragging the top of it. 
-The terminal has several tabs of its own along the top of it, which let you switch to viewing problems, outputs, debugging, and port forwarding. 
+You can open a terminal by pressing `CTRL+SHIFT+@` (`COMMAND+SHIFT+@` on macOS). 
+
+The default position is at the bottom of the screen. You can adjust its height by clicking and dragging the top of it. 
+The top bar of the terminal has several tabs, which let you switch to viewing the normal terminal, problems, outputs, debugging, and port forwarding. 
+
 To the right of the top bar of the terminal, the coding language you are using is displayed. 
 To its right is a large + plus sign; clicking this opens another terminal in the same directory and a side bar to switch between them. 
+
 To the right of this is a split terminal option (two rectangles side-by-side). This opens a new terminal in the same directory to the right of the existing one. Their width can be adjusted by dragging the divider. It also opens the side bar to see an overview of them and close any you want to shut down. 
+
 Besides this, the `...` button lets you do things like clear the terminal, and the `^` button lets you make the terminal take up the whole vertical span of the screen. 
 
 
