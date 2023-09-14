@@ -2,7 +2,7 @@
 VS Code is a code editor which acts as a terminal, script editor and file viewer all in one. It allows you to do multiple things at once, instead of closing the terminal to open a script and closing the script to return to the terminal, as other editors often do.
 You can use it on your personal computer, or on remote HPCs.
 
-![Alt: Several overlaid VS Code windows showcasing different colour variants of a theme.](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/2c5dbb73-94e1-486f-9daa-351699faaa2d/peacock-extension.png)
+![Alt: Several overlaid VS Code windows showcasing different colour variants of windows that you can get with an extension called Peacock for colour-coding workspaces. ](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/2c5dbb73-94e1-486f-9daa-351699faaa2d/peacock-extension.png)
 
 ## On VS Code, you can:
 - View a script and the terminal at the same time.
@@ -13,6 +13,8 @@ You can use it on your personal computer, or on remote HPCs.
 - Compare files side by side (and highlight differences)
 - Find and replace text strings in a script. 
 - Run scripts and commands as you normally would from any other terminal, including on normal and interactive nodes on HPCs.
+- Run Jupyter notebooks in the editor instead of a browser.
+- Easily save files to and from a remote machine; autosave files. 
 
 ## A video tutorial:
 You can find a video tutorial [here](https://code.visualstudio.com/docs/introvideos/basics).
@@ -89,7 +91,21 @@ You're now set up to connect to the remote machine.
 7. The option `Remote-SSH: Connect to host" will let you select the host you just added. It will then prompt you to enter your password (and possibly to tell it whether the host is a linux, mac or windows machine). 
 8. An installation step runs and it attempts to connect. When this finishes, you'll be able to open a terminal and work on the remote machine!
 
-####  Prolems with ISCA when using the VPN off campus
+### Using the Remote Explorer
+This is similar to the normal explorer. Install the plugin and connect to the remote machine. Then open the explorer. It should give you the option of opening the remote directories. Select the highest one you need and then open it. This will open a new window and ask you to re-enter any passwords to connect to the remote machine. You'll now be able to navigate via the explorer. 
+
+## Other useful extensions:
+
+- **Jupyter** - allows you to create and run Jupyter notebooks within the VS Code editor
+- **vscode-pfg** - easily view PDFs in the VS Code viewer
+- **Excel Viewer** - allows you to view excel spreadsheets easily within the VS Code viewer, and do things like sort by columns. 
+- **Peacock** - an extension (actually pictured above in this document) which colour-codes whole windows so you can visually separate different work spaces for different tasks. 
+- **Code Runner** - lets you highlight a section of a script in the VS Code editor and run just that section in the terminal below. Useful for testing a line of code without submitting it as a job. 
+- **GitHub Copilot**, **ChatGPT** and other AIs - there are numerous AI plugins for VS Code which can be incredibly helpful. Bear in mind the university's AI policies and also data protection when using these. You do not know who you could be giving data to. Never give it passwords, nor any access to protected data (the university has extensive training on information governance and GDPR). 
+
+
+
+####  Prolems connecting VS Code with ISCA when using the VPN off campus
 Unfortunately, firewalls and security make it hard to connect to Isca using Remote-ssh when using the VPN. 
 If you find yourself stuck on the "Install" phase of connecting, there is a fix for this.
 
@@ -103,7 +119,5 @@ If you find yourself stuck on the "Install" phase of connecting, there is a fix 
 You should then be able to connect via the VPN, but may need to repeat the process if you reconnect. 
 
 
-### Using the Remote Explorer
-This is similar to the normal explorer. Install the plugin and connect to the remote machine. Then open the explorer. It should give you the option of opening the remote directories. Select the highest one you need and then open it. This will open a new window and ask you to re-enter any passwords to connect to the remote machine. You'll now be able to navigate via the explorer. 
 
 
