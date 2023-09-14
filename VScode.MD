@@ -14,6 +14,9 @@ You can use it on your personal computer, or on remote HPCs.
 - Find and replace text strings in a script. 
 - Run scripts and commands as you normally would from any other terminal, including on normal and interactive nodes on HPCs.
 
+## A video tutorial:
+You can find a video tutorial [here](https://code.visualstudio.com/docs/introvideos/basics).
+
 ## How to install VS Code
 
 Here are installation instructions for [linux](https://code.visualstudio.com/docs/setup/linux), [macOS](https://code.visualstudio.com/docs/setup/mac) and [Windows](https://code.visualstudio.com/docs/setup/windows). 
