@@ -1,6 +1,6 @@
 # Struggling to connect to ISCA with remote-ssh in VSCode?
 
-Some troubleshooting tips, for when you find you can connect to ISCA in a regular terminal but not with VSCode remote-ssh.
+Some troubleshooting tips, for when you find you **_can_ connect to ISCA in a regular terminal** but not with VSCode remote-ssh.
 
 # Issues relating to failing to install a server
 Most issues connecting to ISCA are to do with the failure to correctly install the .vscode-server files in the correct path. This often happens after you update VSC or the remote-ssh extension. 
