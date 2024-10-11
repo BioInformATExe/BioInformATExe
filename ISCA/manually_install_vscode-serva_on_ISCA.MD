@@ -1,4 +1,4 @@
-# Issues relating to failing to install the VS Code server onto ISCA
+# Manually installing .vscode-server files to combat failed installs when connecting to isca with remote-ssh and Visual Studio Code.
 
 ### How to manually install the server for when you find you **_can_ connect to ISCA in a regular terminal** but not with VSCode remote-ssh.
 
