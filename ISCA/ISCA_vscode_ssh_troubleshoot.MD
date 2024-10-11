@@ -1,17 +1,21 @@
-# Struggling to connect to ISCA with remote-ssh in VSCode?
+# Issues relating to failing to install the VS Code server onto ISCA
 
-### Some troubleshooting tips, for when you find you **_can_ connect to ISCA in a regular terminal** but not with VSCode remote-ssh.
+### How to manually install the server for when you find you **_can_ connect to ISCA in a regular terminal** but not with VSCode remote-ssh.
 
 If you can't connect to ISCA in any terminal, make sure you are using the VPN if off campus, and inspect your local .ssh/config and .ssh/known_hosts files. You may also have issues with proxy settings. 
 
-# Issues relating to failing to install a server
-Most issues connecting to ISCA are to do with the failure to correctly install the .vscode-server files in the correct path. This often happens after you update VSC or the remote-ssh extension. 
+## The .vscode-server directory
 
-The `.vscode-server`directory is usually installed by VSCode when you connect remotely to a machine, but firewalls can cause issues when ISCA won't allow the installation of any files from the internet.
+Most issues connecting to ISCA are to do with the failure to correctly install the .vscode-server files in the correct path on ISCA. This happens after installing VSCode for the first time, or updating it. 
+
+The `.vscode-server`directory is usually installed by VSCode when you connect remotely to a machine, but ISCA's firewall won't allow the installation of any files from the internet, which prevents the normal install from happening. 
 
 The easiest solution to this is to manually download the server.
 
-## 1. Check your .vscode-server directory on ISCA 
+## 1. Check your .vscode-server directory on ISCA (OPTIONAL - you can skip straight to 2)
+
+This step is optional because it basically just double checks that this is the cause of your issue.
+
 ```
 # Log in to ISCA in another terminal.
 
@@ -39,7 +43,7 @@ d037ac076cee195194f93ce6fe2bdfe2969cc82d
 
 ```
 
-The strings of numbers above are directories relating to a specific version of VS-code. If you don't have the correct one installed (detailed below), you won't be able to connect remotely using remote-ssh.
+The strings of numbers above are directories relating to a specific commit of VS-code. If you don't have the correct one installed (detailed below), you won't be able to connect remotely using remote-ssh.
 If you've only used one version of VSCode, there should be only one directory like this. 
 
 Let's inspect the contents of these directories:
@@ -77,9 +81,13 @@ It is this commit string that needs to match an install in your .vscode-server
 
 You need to download the correct commit. You want to download the server-linux-x64/stable version regardless of your local machine type, as we're transferring this file to ISCA.
 
+Edit the commit string below so it matches your commit:
+
 ```
 wget  https://update.code.visualstudio.com/commit:d037ac076cee195194f93ce6fe2bdfe2969cc82d/server-linux-x64/stable
+
 ```
+You may need to install wget first if it isn't on your local machine. If you have homebrew installed you can used `brew install wget` to do so.
 
 When this has worked, you should rename the download so it's clear that it's a .tar.gz - you may not see the file appear in the folder but stay in the directory you downloaded it into.
 
