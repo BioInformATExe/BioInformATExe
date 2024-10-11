@@ -2,7 +2,7 @@
 
 ### How to manually install the server for when you find you **_can_ connect to ISCA in a regular terminal** but not with VSCode remote-ssh.
 
-If you can't connect to ISCA in any terminal, make sure you are using the VPN if off campus, and inspect your local .ssh/config and .ssh/known_hosts files. You may also have issues with proxy settings. 
+If you can't connect to ISCA in any terminal, make sure you are using the VPN if off campus, and inspect your local .ssh/config and .ssh/known_hosts files. You may also have issues with proxy settings. Deleting ISCA from your known-hosts and trying to reconnect after this can sometimes help. 
 
 ## The .vscode-server directory
 
