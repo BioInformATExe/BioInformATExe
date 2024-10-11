@@ -91,6 +91,10 @@ You're now set up to connect to the remote machine.
 7. The option `Remote-SSH: Connect to host" will let you select the host you just added. It will then prompt you to enter your password (and possibly to tell it whether the host is a linux, mac or windows machine). 
 8. An installation step runs and it attempts to connect. When this finishes, you'll be able to open a terminal and work on the remote machine!
 
+### If the installation doesn't work, try manually installing the .vscode-server files onto ISCA first.
+
+Follow [step 2 of this guide](https://github.com/BioInformATExe/BioInformATExe/blob/main/ISCA/manually_install_vscode-server_on_ISCA.MD) to manually install the correct files.
+
 ### Using the Remote Explorer
 This is similar to the normal explorer. Install the plugin and connect to the remote machine. Then open the explorer. It should give you the option of opening the remote directories. Select the highest one you need and then open it. This will open a new window and ask you to re-enter any passwords to connect to the remote machine. You'll now be able to navigate via the explorer. 
 
