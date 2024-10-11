@@ -87,9 +87,9 @@ mv stable vscode-server-linux.tar.gz
 
 ### 2.3 Transfer the file to ISCA. You can use scp or rsync:
 
-\\\
+```
 scp vscode-server-linux.tar.gz user123@login.isca.ex.ac.uk:/lustre/home/user123/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/vscode-server.tar.gz
-\\\
+```
 
 ### 2.4 Unzip the file:
 
